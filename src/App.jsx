@@ -576,7 +576,7 @@ Valid JSON, no preamble:
 
 async function callClaude({ system, messages, max_tokens = 1500, temperature, timeoutMs = 60000 }) {
   const body = {
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-sonnet-4-6',
     max_tokens,
     system,
     messages,
